@@ -3,7 +3,7 @@ class Rope{
 var options = {
 bodyA:bodyA,
 pointB:pointA,
-length : 100
+length : 150
 }
 this.pointB = pointA
 this.string = Constraint.create(options)

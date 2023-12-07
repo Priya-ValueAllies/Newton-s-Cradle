@@ -9,6 +9,8 @@ function setup(){
 	createCanvas(400,400)
 	engine = Engine.create()
 	world = engine.world
+	text("NEWTON's CRADLE",100,20)
+	text("PRESS UP AROW TO SEE THE CRADLE's MOVEMENT",50,50);
 	rod1 = new Rod(50,50,150,20)
 	ball1 = new Ball(100,100,20)
 	rope1 = new Rope(ball1.body,{x:100,y:60})

@@ -12,7 +12,7 @@ class Ball{
     
     show(){
         var pos= this.body.position
-        fill('blue')
+        fill('purple')
         ellipseMode(RADIUS)
         ellipse(pos.x,pos.y,this.width,this.width)
     }
